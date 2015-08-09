@@ -18,4 +18,6 @@ public class Tablero {
 				matrizTablero[i][j] = m[i][j];	
 	}
 	
+	
+	
 }

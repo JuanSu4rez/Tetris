@@ -17,7 +17,7 @@ public abstract class AbstractGame extends JPanel implements Runnable,KeyListene
 {
 	public static int Width=400;
 	
-	public static int Height=400;
+	public static int Height=800;
 	
     public final static int MAX_FRMAES_SKIP=5;
 	
