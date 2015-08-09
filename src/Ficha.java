@@ -1,5 +1,10 @@
+import java.awt.Graphics2D;
+import java.awt.Shape;
 
-public class Ficha {
+import IndieGame.Sprite;
+
+
+public class Ficha extends  Sprite {
 
 	public final static int TIPO1 = 1;
 	public final static int TIPO2 = 2;
@@ -105,5 +110,23 @@ public class Ficha {
 	}
 	
 	public int getTipo(){return tipo;}
+
+	@Override
+	protected void draw(Graphics2D g) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected Shape getShape() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected void update() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
